@@ -1,0 +1,32 @@
+
+
+.container{
+    width: 1140px;
+    background-color:blue;
+} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.slide{
+    flex: 0 0 40%;
+    width: 50%;
+    height: 60%;
+    margin: 10px auto;
+    background-color: khaki;
+}
+.slide img {
+    float: left;
+    width: 45%;
+    height: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.slide h3{
+    margin-left: 60%;
+    margin-top: 5%;
+}
+.slide p{
+    text-align: left;
+}

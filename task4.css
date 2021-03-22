@@ -1,0 +1,30 @@
+.container{
+    width: 1140px;
+    margin: auto;
+    background-color: blue;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.slide{
+    flex: 0 0 40%;
+    width: 30%;
+    margin: 30px 40px;
+    background-color: coral;
+}
+.slide img{
+    flex: 0 0 50%;
+    float: left;
+    width: 40%;
+    height: 90%;
+    padding: 10px;
+}
+.slide h4{
+    margin-top: 10px;
+    text-align: center;
+}
+.slide p{
+    text-align: left;
+    margin: 10px;
+}

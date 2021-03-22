@@ -1,0 +1,418 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.what h2{
+    text-align: center;
+    font-size: 35px;
+    color: darkorange;
+    margin-top: 0;
+    margin-left: 450px;
+
+}
+.what h2:after{
+    display: block;
+    background-color: darkorange;
+    content: " ";
+    width: 150px;
+    height: 3px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+.what p{
+    text-align: center;
+    margin-left: -10px;
+}
+
+
+.slide{
+    flex: 0 0 30%;
+    width: 30%;
+}
+.slide{
+    width: 100%;
+}
+.slide img{
+    flex: 0 0 40%;
+    height: 220px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px 10px;
+}
+.slide h3{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 2px;
+    border: 1.5px solid rgb(233, 230, 230);
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.slide p{
+    text-align: left;
+    border: 1.5px solid rgb(233, 230, 230);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -22px;
+    padding: 15px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.head{
+    margin-top: -8px;
+}
+.image{
+    position: relative;
+    height: 600px;
+}
+.image img{
+    width: 750px;
+    height: 600px;
+    margin-left: 380px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 750px;
+    height: 600px;
+    margin-left: 380px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+.image h3{
+    text-align: center;
+}
+.image h3{
+    text-align: center;
+    margin-top: 2px;
+    border: 1.5px solid rgb(233, 230, 230);
+    margin-left: 380px;
+    margin-right: 372px;
+    margin-top: -5px;
+    padding: 10px;
+}
+.image p{
+    text-align: left;
+    border: 1.5px solid rgb(233, 230, 230);
+    margin-left: 380px;
+    margin-right: 372px;
+    margin-top: -20px;
+    padding: 20px 15px;
+}
+
+.logo{
+    margin: 65px;
+}
+.our-clients h2{
+    margin-top: 60px;
+    margin-left: 520px;
+    font-size: 25px;
+    font-weight: 1px;
+    color: darkorange;
+}
+.our-clients h2:after{
+    display: block;
+    content: " ";
+    background-color: darkorange;
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+}
+.para p{
+    text-align: center;
+} 
+.logo .align{
+    flex: 0 0 31%;
+}
+.align img{
+    height: 130px;
+    width: 330px;
+    margin: 8px 15px;
+}
+
+.test{
+    margin-top: 25px;
+}
+.test h2{
+    margin-top: -10px;
+    text-align: center;
+    color: rgb(29, 20, 90);
+    margin-left: 400px;
+    font-size: 30px;
+}
+.test h2:after{
+    display: block;
+    content: " ";
+    background-color: rgb(29, 20, 90);
+    height: 3px;
+    width: 130px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.test h3{
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 420px;
+    font-size: 20px;
+}
+
+
+.deepthi1 .quotes1{
+    flex: 0 0 100%;
+    background-color: rgb(54, 52, 52);
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 2px;
+    border-bottom: 1.5px solid rgb(53, 34, 34);
+}
+.quotes1 p{
+    color: rgb(129, 125, 125);
+    text-align: center;
+}
+
+
+.deepthi2 .quotes2{
+    flex: 0 0 100%;
+    background-color: rgb(54, 52, 52);
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 2px;
+    border-bottom: 1.5px solid rgb(53, 34, 34);
+}
+.quotes2 p{
+    color: rgb(129, 125, 125);
+    text-align: center; 
+}
+
+.deepthi3 .quotes3{
+    flex: 0 0 100%;
+    background-color: rgb(54, 52, 52);
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 2px;
+}
+.quotes3 p{
+    color: rgb(129, 125, 125);
+    text-align: center;
+}
+
+
+.bunny{
+    margin-top: 40px;
+    width: 100%;
+}
+.pic{
+    position: relative;
+    height: 400px;
+    margin-left: 0;
+    width: 100%;
+    align-items: right;
+}
+.pic img{
+    width: 100%;
+    height: 400px;
+}
+.bunny .overlay1{
+    position: absolute;
+    width: 99%;
+    height: 400px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+.pic .pic-txt h2{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    z-index: 2;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.pic .pic-txt h3{
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    z-index: 2;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.pic .pic-txt h4{
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    z-index: 2;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+}
+
+
+.yaksha{
+    margin-top: 20px;
+    background-color: white;
+}
+.karthik{
+    flex: 0 0 95%;
+    width: 100%;
+}
+.karthik .frame1{
+    flex: 0 0 30%;
+    width: 100%;
+    margin: 5px 20px;
+}
+.karthik .frame1 img{
+    height: 400px;
+    width: 300px;
+    margin-left: 60px;
+    padding: 10px;
+}
+.karthik .frame2{
+    flex: 0 0 50%;
+    width: 100%;
+    margin: 5px 20px;
+}
+.frame2 h2{
+    margin-top: -5px;
+    color: black;
+    font-size: 30px;
+    margin: 5px 10px;
+}
+.frame2 h4{
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+}
+.frame2 h5{
+    color: black;
+    font-size: 18px;
+}
+
+
+.nani{
+    margin-top: 0;
+    width: 100%;
+    background-color: rgb(3, 3, 90);
+} 
+.nani .images{
+    width: 100%;
+    background-color: rgb(3, 3, 90);
+}
+.images{
+    width: 10%;
+    height: 130px;`
+}
+.images img{
+    width: 165px;
+    height: 100px;
+    margin: 10px 10px;
+    margin-top: 14px;
+}
+
+
+.deepu{
+    margin-top: 40px;
+    width: 100%;
+    background-color: rgb(3, 3, 90);
+}
+.deepu .frame{
+    flex: 0 0 99%;
+    background-color: rgb(3, 3, 90);
+    margin-left: -80px;
+}
+.box1 img{
+    height: 50px;
+    width: 120px;
+    margin-top: 40px;
+}
+.box1 h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.box1 p{
+    color: white;
+    margin-top: -5px;
+}
+.box1{
+    flex: 0 0 30%;
+    width: 100%;
+    border-right: 1.5px solid white;
+    display: inline-block;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+.box2{
+    flex: 0 0 33%;
+    border-right: 1.5px solid white;
+    display: inline-block;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+.box2 h2{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.box2 h3{
+    color: white;
+    text-align: center;
+}
+.box2 .fa{
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+    padding: 10px;
+}
+.box2 .icon1{
+    background-color: blue;
+}
+.box3{
+    flex: 0 0 35%;
+    width: 100%;
+}
+form{
+    background-color: white;
+    width: 100%;
+    margin: 25px;
+    margin-left: 30px;
+    height: 300px;
+    width: 330px;
+    padding: 5px;
+}
+input{
+    
+    width: 70%;
+    margin: 10px;
+}
+textarea{
+    margin-left: 10px;
+    width: 300px;
+    height: 100px;
+}
+form h2{
+    text-align: center;
+    color: rgb(190, 182, 182);
+    font-size: 20px;
+    border: 1px solid red;
+    background-color: red;
+    padding: 5px;
+}

@@ -1,0 +1,21 @@
+
+p{
+    background-color: cornsilk;
+}
+.container{
+    width: 1140px;
+    margin: 10px;
+    background-color: cadetblue;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.slide{
+    flex: 0 0 28%;
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+    background-color: coral;
+}

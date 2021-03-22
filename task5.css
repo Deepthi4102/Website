@@ -1,0 +1,30 @@
+.container{
+    width: 0 0 1140px;
+    margin: auto;
+    background-color: darkcyan;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.class-grid{
+    background-color: blue;
+}
+.box{
+    flex: 0 0 80%;
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box .text{
+    flex: 0 0 40%;
+}
+.box .img{
+    flex: 0 0 40%;
+    width: 40%;
+    margin: 10px auto;
+}
+.border{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+}

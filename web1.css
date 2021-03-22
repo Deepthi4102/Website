@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-logo{
+    width: 70px;
+    height: 70px;
+    margin-right: 60px;
+}
+.header-nav{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.header-nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    margin: 10px 5px;
+    font-size: 23px;
+    border-radius: 20px;
+}
+.header-nav a:hover{
+    background-color: aquamarine;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgba(105, 97, 97, 0.637);
+}
+
+/* header section ends */
+/* title starts */
+.title{
+    margin-top: 10px;
+}
+.title h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(112, 49, 121);
+    margin-bottom: 20px;
+}
+.title h2:after{
+    display: block;
+    height: 3px;
+    weight: 100px;
+    background-color: rgb(112, 49, 121);
+    content: "";
+    margin: 0 500px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.title h3{
+    color: rgb(112, 49, 121);
+    font-size: 25px;
+    text-align: center;
+    margin-top: -15px;
+}
+.title p{
+    color: black;
+    text-align: center;
+}
+/* end of title */
+/* features start */
+.features{
+    margin-top: 40px;
+}
+.features .frame{
+    flex: 0 0 30%;
+    height: 280px;
+    position: relative;
+    margin: 10px 15px;
+}
+.features .frame .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text- align: center;
+    border: 2px solid grey;
+    margin-left: 5px;
+}
+.features .frame .face1{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    transform-origin: right;
+}
+.features .frame .face1 img{
+    width: 100px;
+    margin-top: 20px;
+}
+.features .frame .face1 h2{
+    color: rgb(112, 49, 121);
+    font-size: 25px;
+}
+.features .frame .face1 p{
+    color: rgb(112, 49, 121);
+    font-size: 15px;
+}
+.frame:hover{
+    background-color: white;
+}
+.face1:hover{
+    background-color: white;
+    transform: translateX(-100%)translateX(100%) rotateX(90deg);
+    transition: 0.5s;
+}
+.face .face2{
+    justify-content: center;
+    margin-left: 10px;
+    transform-origin: left;
+}
+.face2 p{
+    color: rgb(112, 49, 121);
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+
